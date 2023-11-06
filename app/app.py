@@ -23,6 +23,7 @@ def hello_world():  # put application's code here
     return "Hello Tour de App! Edited Twice :)"
 
 @app.route("/api")
+def api():
     return {"test": True}
 
 if __name__ == '__main__':
