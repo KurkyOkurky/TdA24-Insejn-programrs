@@ -22,6 +22,8 @@ db.init_app(app)
 def hello_world():  # put application's code here
     return "Hello Tour de App! Edited Twice :)"
 
+@app.route("/api")
+    return {"test": True}
 
 if __name__ == '__main__':
     app.run()
